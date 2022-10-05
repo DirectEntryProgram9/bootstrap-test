@@ -1,0 +1,23 @@
+@media all and (min-width: 768px) and (max-width: 991px) {
+    #logo {
+        /* order: 1; */
+    }
+    #nav {
+        height: 150px;
+        /* order: 2; */
+    }
+    #smi-bar {
+        /* order: 3; */
+    }
+    .img {
+        height: 150px;
+    }
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+    #nav {
+        height: 200px;
+    }
+    .text {
+        height: 200px;
+    }
+}
